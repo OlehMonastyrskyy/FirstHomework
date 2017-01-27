@@ -1,0 +1,124 @@
+body{
+    background-color: lightgray;
+    padding: 300px;
+}
+.bl-background {
+    width: 100%;
+    max-width: 1280px;
+    min-width: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-panel{
+    width: 100%;
+}
+
+.hr{
+    height: 1px;
+    background-color: dimgray;
+}
+
+.text{
+    border-radius: 5px;
+    position:static;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 70%;
+    min-width: 200px;
+}
+
+.bl-list {
+    border-radius: 5px; 
+    float: left;
+    margin-right: auto;
+    width: 55%;
+    min-width: 300px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.bl-bought {
+    border-radius: 5px; 
+    float: right;
+    margin-top: auto;
+    margin-left: auto;
+    width: 40%;
+    min-width: 200px;
+    background: white;
+}
+
+.poduct-name{
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.bl-count{
+    margin: auto;
+    padding-top: 3px;
+    float: right;
+}
+.bl-buttons{
+    padding-top: 3px;
+    padding-right: 5px;
+    float: right;
+    
+    margin-left: 20%;
+    border-radius: 5px;
+}
+/*Кнопки*/
+.bl-label {
+    background: #cdcbcb;
+}
+.bl-plus {
+    border-radius: 15px;
+    background: #04a613;
+}
+.bl-minus {
+    border-radius: 15px;
+    background-color: red;
+}
+
+.add-button{
+    border-radius: 5px;
+}
+
+.delete-button{
+    background-color: red;
+    border-radius: 5px;
+}
+
+.bl-title{
+    margin: 5px 5px;
+}
+
+.not-bought{
+    margin: 7px; 
+}
+
+.tamplate{
+    display: inline-block;
+    margin: 2px;
+    background-color: lightgrey;
+    padding: 5px;
+    color: dimgray;
+    border-radius: 5px;
+}
+
+.circle{
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bl-label{
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+}
