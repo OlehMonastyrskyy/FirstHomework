@@ -28,7 +28,7 @@ body{
 }
 
 .text{
-    font-family: Comic Sans MS;ж
+    font-family: Comic Sans MS;
     border-radius: 5px;
     position:static;
     margin-left: 15px;
@@ -37,10 +37,16 @@ body{
     min-width: 200px;
 }
 
-.product{
+.product-template{
     display: flex;
     height: 100%;
-    height: 8px 4px; 
+    height: 8px;
+    border-radius: 5px;
+}
+
+.product{
+    display: flex;
+    height: 20px;
     border-radius: 5px;
 }
 
@@ -50,7 +56,6 @@ body{
     background: white;
     margin: 50px 0px 0px 0px;;
     width: 60%;
-    height: auto;
     min-width:100px;
 }
 
@@ -65,21 +70,21 @@ body{
     margin-top: 50px;
 }
 
-.poduct-name{
+.product-name{
     width: 31%;
-    margin: 8px 5px;    
+    margin: 8px 5px;
 }
 
 .bl-count{
     width: 30%;
-    margin: 1px 5px;
+    float: left;
 }
 
 .bl-buttons{
     width: 34%;
     margin: 1px 5px;
+    float: right;
 }
-
 /*Кнопки*/
 .bl-label {
     background: #cdcbcb;
@@ -124,7 +129,7 @@ body{
     margin: 7px; 
 }
 
-.tamplate{
+.template{
     display: inline-block;
     margin: 2px;
     background-color: lightgrey;
@@ -176,6 +181,10 @@ button:hover .textfortooltip {
     visibility: visible;
     transition: transform 0.5s ease;
     transform: translateY(-8%);
+}
+
+.hidden{
+    display: none;
 }
 
 .badge{
